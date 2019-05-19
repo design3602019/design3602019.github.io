@@ -449,10 +449,17 @@ input:required {
     letter-spacing: 1px; }
     @media only screen and (max-width: 767px) {
       .section-heading h4 {
-        font-size: 26px; } }
+        font-size: 26px; } 
+        .section-heading p {
+        font-size: 15px; } 
+
+        }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .section-heading h4 {
-        font-size: 30px; } }
+        font-size: 30px; }
+        .section-heading p {
+          font-size: 15px; } 
+   }
 
 .section-heading-2 {
   position: relative;
@@ -476,6 +483,31 @@ input:required {
         font-size: 26px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .section-heading-2 h4 {
+        font-size: 30px; } }
+    
+        
+.section-heading-21 {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px; }
+  .section-heading-21 p {
+    color: #30cfd0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: 400; }
+  .section-heading-21 h4 {
+    font-size: 38px;
+    color: #330867;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    @media only screen and (max-width: 767px) {
+      .section-heading-21 h4 {
+        font-size: 26px; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .section-heading-21 h4 {
         font-size: 30px; } }
 
 .section-heading-3 {
@@ -2280,11 +2312,12 @@ opacity:0; }
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      
       border-bottom: none; }
       .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
-        color: #9293bc;
+        color: #ffffff;
         
-        background-color: #330867;
+        background-color: #5d5e8d;
         text-align: center;
         border-radius: 0;
         font-size: 18px;
@@ -2340,15 +2373,15 @@ opacity:0; }
   transition-duration: 500ms;
   margin-bottom: 20px; }
   .single-schedule-area:hover, .single-schedule-area:focus {
-    border-color: #30cfd0; }
-  .single-schedule-area .single-schedule-tumb-info {
+    border-color: #046666; }
+  /* .single-schedule-area .single-schedule-tumb-info {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 42%;
     flex: 0 0 42%;
     max-width: 42%;
     width: 42%;
-    padding-right: 15px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    padding-right: 15px; } */
+    /* @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-schedule-area .single-schedule-tumb-info {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 35%;
@@ -2363,7 +2396,7 @@ opacity:0; }
         max-width: 100%;
         width: 100%;
         padding-left: 0;
-        padding-bottom: 30px; } }
+        padding-bottom: 30px; } } */
     .single-schedule-area .single-schedule-tumb-info .single-schedule-tumb {
       height: 90px;
       width: 90px; }
@@ -2405,7 +2438,7 @@ opacity:0; }
     max-width: 15%;
     width: 15%;
     padding: 0 5px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-schedule-area .schedule-time-place {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 35%;
@@ -2419,7 +2452,7 @@ opacity:0; }
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
-        padding: 0 0 30px 0; } }
+        padding: 0 0 30px 0; } } */
     .single-schedule-area .schedule-time-place p {
       color: #ffffff;
       margin-bottom: 0;
@@ -2428,13 +2461,13 @@ opacity:0; }
     word-spacing: 3px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-schedule-area .schedule-time-place p {
-          font-size: 12px; } }
+          font-size: 15px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-schedule-area .schedule-time-place p {
-          font-size: 12px; } }
+          font-size: 15px; } }
       @media only screen and (max-width: 767px) {
         .single-schedule-area .schedule-time-place p {
-          font-size: 12px; } }
+          font-size: 15px; } }
       .single-schedule-area .schedule-time-place p i {
         color: #30cfd0;
         margin-right: 5px; }
@@ -2577,14 +2610,14 @@ opacity:0; }
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #330867; }
+  background-color: white; }
 
 .our-sponsor-area {
   position: relative;
   z-index: 1;
   width: 100%; }
   .our-sponsor-area .single-sponsor {
-    border: 1px solid #330867;
+    border: 10px solid #ffffff;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
@@ -2644,15 +2677,23 @@ opacity:0; }
       color: #ffffff;
       margin-bottom: 0; }
       .contact-our-area .contact-information .single-contact-info h5 {
-        font-size: 30px;
+        font-size: 25px;
         color: #30cfd0;
-        margin-bottom: 0; }
+        margin-bottom: 9px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .contact-our-area .contact-information .single-contact-info h6 {
-          font-size: 16px; } }
+          font-size: 16px; } 
+          .contact-our-area .contact-information .single-contact-info h5 {
+            font-size: 17px;
+            color: #30cfd0;
+            margin-bottom: 15px; }}
       @media only screen and (max-width: 767px) {
         .contact-our-area .contact-information .single-contact-info h6 {
-          font-size: 14px; } }
+          font-size: 14px; } 
+          .contact-our-area .contact-information .single-contact-info h5 {
+            font-size: 17px;
+            color: #30cfd0;
+            margin-bottom: 15px; }}
     .contact-our-area .contact-information .single-contact-info:last-child {
       margin-bottom: 0; }
   .contact-our-area .contact_from_area {
