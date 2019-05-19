@@ -2331,7 +2331,9 @@ opacity:0; }
         border-right: 1px solid #4c4f8d; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
-            font-size: 14px; } }
+            font-size: 14px;
+        padding: 15px 30px;
+      } }
         @media only screen and (max-width: 767px) {
           .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
             font-size: 10px;
@@ -2403,40 +2405,45 @@ opacity:0; }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-tumb img {
         border-radius: 50%; }
     .single-schedule-area .single-schedule-tumb-info .single-schedule-info {
-      margin-left: 30px; }
+      margin-left: 0px; }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
         font-size: 20px;
         color: #ffffff;
         font-weight: 600; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
-            font-size: 16px; } }
+            font-size: 16px;
+            margin-left: 0px } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
-            font-size: 14px; } }
+            font-size: 14px;
+            margin-left: 0px } }
         @media only screen and (max-width: 767px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
-            font-size: 14px; } }
+            font-size: 14px;
+            margin-left: 0px } }
       .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
         color: #9293bc;
-        margin-bottom: 0; }
+        margin-bottom: 0;margin-left: 0px }
+
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
-            font-size: 12px; } }
+            font-size: 12px;margin-left: 0px } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
-            font-size: 12px; } }
+            font-size: 12px;margin-left: 0px } }
         @media only screen and (max-width: 767px) {
           .single-schedule-area .single-schedule-tumb-info .single-schedule-info p {
-            font-size: 12px; } }
+            font-size: 12px; margin-left: 0px} }
         .single-schedule-area .single-schedule-tumb-info .single-schedule-info p span {
-          color: #ffffff; }
+          color: #ffffff; margin-left: 0px}
   .single-schedule-area .schedule-time-place {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 15%;
     flex: 0 0 15%;
     max-width: 15%;
     width: 15%;
+    margin-right: 10px;
     padding: 0 5px; }
     /* @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-schedule-area .schedule-time-place {
