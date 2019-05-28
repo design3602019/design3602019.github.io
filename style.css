@@ -633,7 +633,7 @@ input:required {
   .confer-btn:focus, .confer-btn:hover {
     font-weight: 500;
     background-color: #f8eeee;
-    color: #0d0d1a !important;
+    color: #111343 !important;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .confer-btn:focus i, .confer-btn:hover i {
@@ -2360,7 +2360,7 @@ opacity:0; }
       .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link {
         color: #ffffff;
         
-        background-color: #5d5e8d;
+        background-color: #353870;
         text-align: center;
         border-radius: 10;
         font-size: 18px;
@@ -2415,7 +2415,7 @@ opacity:0; }
             .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link span {
               font-size: 10px; } }
         .our-schedule-area .schedule-tab .nav-tabs .nav-item .nav-link.active {
-          background-color: #5d5e8d;
+          background-color: #313181;
           color: #ffffff; }
       .our-schedule-area .schedule-tab .nav-tabs .nav-item:nth-child(1) .nav-link {
         border-radius: 10px 0 0 10px; }
